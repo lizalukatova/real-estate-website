@@ -1,0 +1,22 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
+
+@import "parts/common/variables";
+@import "parts/common/base";
+@import "parts/common/utils";
+@import "parts/common/header";
+@import "parts/common/footer";
+@import "parts/common/checkbox";
+@import "parts/common/slider";
+@import "parts/common/gallery";
+@import "parts/common/spinner";
+@import "parts/common/pagination";
+
+@import "parts/index";
+@import "parts/about";
+@import "parts/offers";
+@import "parts/buying";
+@import "parts/apartments";
+@import "parts/plans";
+@import "parts/events";
+@import "parts/photos";

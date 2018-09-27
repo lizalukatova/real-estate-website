@@ -1,0 +1,27 @@
+.photos-tabs {
+  @extend .about-tabs;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  .nav-item .nav-link {
+    padding: 6px 18px;
+    margin-bottom: 5px;
+  }
+}
+
+.lizard_photo {
+  background-image: url('#{$img-path}/common/lizards/lizard_foto.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  image-rendering: -webkit-optimize-contrast;
+  width: 240px;
+  height: 187px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
